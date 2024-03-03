@@ -19,7 +19,7 @@ S3 configurations includes:
 
 ```hcl
 module "s3" {
-  source = "vodasure/s3"
+  source = "github.com/leonmwandiringa/terraform-aws-s3.git?ref=v1.9"
   bucket_name = var.bucket_name
   tags   = var.global_tags
 }
