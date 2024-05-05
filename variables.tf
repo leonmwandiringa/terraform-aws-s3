@@ -31,6 +31,18 @@ variable "logging" {
   description = "Bucket access logging configuration."
 }
 
+variable "website_configuration" {
+  type = object({
+    index_document = string
+    error_document = string
+  })
+}
+variable "iswebsite" {
+  type = bool
+  default = false
+  description = "website bool"
+}
+
 variable "sse_algorithm" {
   type        = string
   default     = "AES256"
