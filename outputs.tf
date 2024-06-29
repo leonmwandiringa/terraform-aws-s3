@@ -24,6 +24,6 @@ output "bucket_region" {
 }
 
 output "website_endpoint" {
-  value       = var.iswebsite == true ? aws_s3_bucket_website_configuration.default.website_endpoint : null
+  value       = var.iswebsite == true ? aws_s3_bucket_website_configuration.default[0].website_endpoint : null
   description = "Bucket website endpoint"
 }
