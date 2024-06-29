@@ -22,3 +22,8 @@ output "bucket_region" {
   value       = aws_s3_bucket.default.region
   description = "Bucket region"
 }
+
+output "website_endpoint" {
+  value       = var.iswebsite == true ? aws_s3_bucket_website_configuration.default.website_endpoint : null
+  description = "Bucket website endpoint"
+}
