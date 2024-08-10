@@ -1,6 +1,6 @@
 # AWS S3 Terraform module
 
-Terraform module built for Vodacom internal use by the Vodasure team.
+Terraform module.
 
 S3 configurations includes:
 
