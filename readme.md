@@ -81,7 +81,7 @@ No Modules.
 
 ## Authors
 
-Module authored and managed by [Leon_Mwandiringa](https://github.com/leonmwandiringa) from the [Vodasure Team].
+Module authored and managed by [Leon_Mwandiringa](https://github.com/leonmwandiringa).
 
 ## License
 
