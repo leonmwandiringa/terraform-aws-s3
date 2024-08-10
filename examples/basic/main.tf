@@ -4,7 +4,7 @@ provider "aws" {
 
 module "s3_bucket" {
   source = "../.."
-  bucket_name = "vodasure-testo1"
+  bucket_name = "testo1"
   tags   = {
     Name = "example_bucket"
     Author      = "LTM"
